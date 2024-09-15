@@ -19,6 +19,7 @@ if (numberGuess == number) {
 //If the user is correct, alert you won and the number.
 //If the user is incorrect, alert you're wrong, if it is too high or low, and how many chances are left, decremented automatically from the above based on guess count.
 
+
 if (numberGuess != number && guesses == 1) {
     numberGuess = prompt("Guess a number between 1 and 50! You have 2 chances left.");
 }
