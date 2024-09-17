@@ -88,4 +88,5 @@ if (numberGuess == number && guesses == 2) {
         alert(`Sorry, ${userName}, that number was too low. You have lost the game. The correct number was ${number}.`);
     }
 }
-
+//Stretch Goal 3
+//User needs the option to restart the game after it's over
